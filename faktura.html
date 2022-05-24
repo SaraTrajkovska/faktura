@@ -80,7 +80,10 @@
                margin-right: 40px;
                margin-bottom: 10px;
                border-color: rgb(109, 109, 240);
+               text-align: right;
+               
            }
+          
           .header1{
               background-color: rgb(109, 109, 240);
               width: 5%;
@@ -120,31 +123,27 @@
         .header8{
             background-color: rgb(109, 109, 240);
             color:white;
-            
+            width: 15%;
         }
-        .tab{
+        #mala-tabela{
             margin-top: 10px;
-            margin-left: 1100px;
+            margin-left: 960px;
             margin-right: 10px;
             justify-items: left;
             float: left;
+            width: 25%; 
+            border:1px solid white;
+            text-align: right;
         }
-        .ime1{
-            background-color: rgb(109, 109, 240);
-            color: white;
-        }
-        .ime2{
-            background-color: rgb(109, 109, 240);
-            color:white;
-        }
-       .ime3{
-           background-color: rgb(109, 109, 240);
-           color:white;
-       }
-       .ime4{
-           background-color: rgb(109, 109, 240);
-           color:white;
-       }
+        #mala-tabela td {
+		width:25%;
+		border: 1px dashed rgb(109, 109, 240);
+	    }
+	    .plavapozadina {
+         background-color: rgb(109, 109, 240);
+		color:white;
+	    }
+        
        .zabeleska{
            margin-left: 30px;
        }
@@ -173,13 +172,12 @@
 </div> 
 <div class="details">
     <ul>
-    <li><i class="fa fa-map-marker" aria-hidden="true"></i>Драган Стопаревиќ 2/5 </li>
-    <li>1300 Куманово, Македонија</li>
-    <li>
-        <i class='fas fa-mobile-alt'><fa-mobile-alt></i>+389 78 363 101</li>
-    <li><i class='fa fa-envelope-open'></i>sojic@livenetworks.mk</li>
-    <li><i class='fas fa-globe'></i>http://livenetworks.mk</li>
-    <li><i class='fa fa-dollar'></i> ЕДБ:МК 4017016529812</li>
+    <li><i class="fa fa-map-marker" style="color:rgb(109, 109, 240)";  aria-hidden=true></i>Драган Стопаревиќ 2/5 1300 Куманово, Македонија</li>
+
+    <li> <i class='fas fa-mobile-alt' style="color:rgb(109, 109, 240)"; ></i> <text-align:left>+389 78 363 101</text-align:left></li>
+    <li><i class='fa fa-envelope-open' style="color:rgb(109, 109, 240)"></i><text-align:left>sojic@livenetworks.mk</text-align:left></li>
+    <li><i class='fas fa-globe' style="color:rgb(109, 109, 240)"></i><text-align:left>http://livenetworks.mk</text-align:left></li>
+    <li><i class='fa fa-dollar' style="color:rgb(109, 109, 240)"></i> <text-align:left>ЕДБ:МК 4017016529812</text-align:left> </li>
     <li><b>Ж-ска 270071027470104</b></li>
     <li><b>Халк Банка АД Скопје</b></li>
 </ul>
@@ -244,24 +242,28 @@
   </table>
   <p> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;</p>
 
-  <table style="border:1px solid rgb(109, 109, 240);" class="tab">
-    <tr>
-      <td class="ime1">Вкупно без ДДВ</td>
-      <td class="t1">3.800</td>
-    </tr>
-    <tr>
-      <td class="ime2">ДДВ 5%</td>
-      <td class="t2">0</td>
-    </tr>
-    <tr>
-        <td class="ime3">ДДВ 18%</td>
-        <td class="t3">684</td>
-      </tr>
-      <tr>
-        <td class="ime4">Вкупно со ДДВ</td>
-        <td ><b>4.484     </b></td>
-      </tr>
-  </table>
+  <table style="border:1px solid rgb(109, 109, 240);" id="mala-tabela">
+    
+		<tr>
+			<td class="plavapozadina">Вкупно без ДДВ</td>
+			<td>3.800</td>
+		</tr>
+		
+		<tr>
+			<td class="plavapozadina">ДДВ 5%</td>
+			<td>0</td>
+		</tr>
+		
+		<tr>
+			<td class="plavapozadina">ДДВ 18%</td>
+			<td>684</td>
+		</tr>
+		
+		<tr>
+			<td class="plavapozadina">Вкупно со ДДВ</td>
+			<td><b>4.484</b></td>
+		</tr>
+	</table>
   <p> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;</p>
   <p> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;</p>
   <p> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;</p>
